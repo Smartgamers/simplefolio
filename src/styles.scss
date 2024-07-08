@@ -9,6 +9,16 @@
     height: auto;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    width: $container-width;
+    height: auto;
+    border-radius: 50%; // For circular image
+    background-color: transparent; // Ensure the image itself has no background color
+    border: none; // Ensure no border on the image
+  }
+
 @import "./sass/vendors/bootstrap.scss";
 
 @import "./sass/abstracts/mixins";

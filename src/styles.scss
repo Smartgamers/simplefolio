@@ -1,15 +1,12 @@
-// Variables (if you want to use them)
-$primary-color: #f0f0f0;
-$text-color: #333;
-$container-width: 500px;
-
-// Flex container to center content vertically and horizontally
 .profile-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; // Full viewport height for centering
-  width: 100%;
+    position: absolute;
+    top: 20px; // Adjust as needed
+    right: 20px; // Adjust as needed
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: auto;
 }
 
 @import "./sass/vendors/bootstrap.scss";

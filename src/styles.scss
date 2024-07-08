@@ -12,7 +12,7 @@
 img {
     display: block;
     max-width: 100%;
-    width: $container-width;
+    width: auto;
     height: auto;
     border-radius: 50%; // For circular image
     background-color: transparent; // Ensure the image itself has no background color
